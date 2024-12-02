@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Website Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: gray;
+
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: black;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      width: 100%;
+      }
+    #Personnel{
+      margin-left: 750px;
+    }
+
+    header img {
+      height: 100px;
+      width: 100px;
+    }
+    .login1{
+      margin-left: 700px;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      height: 40px;
+      width: 120px;
+      background-color: blue;
+    }
+    #loginn{
+      color: white;
+    }
+    }
+    .header-icons img {
+      width: 20px;
+      height: 20px;
+    }
+    .slideshow {
+      width: 100%;
+      height: 300px;
+     
+      background-size: cover;
+    }
+    .image-gallery {
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      margin-top: 399px;
+    }
+    .image-gallery .card {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
+      width: 22%;
+    }
+    .image-gallery img {
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+    }
+    .map-video {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    .map-video iframe {
+      flex: 1;
+      border: 0;
+    }
+    .map {
+      flex: 1;
+    }
+    footer {
+      background: #003f7f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .social-media {
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+      `
+    }
+    .social-media img {
+      width: 30px;
+    }
+
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+    .footer-links {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    footer a{
+      color: white;
+      text-decoration: none;
+
+    }
+    * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.una strong{
+  font-size: 12px;
+}
+
+  </style>
+</head>
+<body>
+
+ 
+  <header>
+    <div class="una">
+    <img src="Capture-removebg-preview.png" alt="Logo">
+    <strong id="Personnel">Personal Management System</strong>
+   </div>
+      <div class="login1">
+      <a id="loginn" href="login.html"> Log in</a>
+    </div>
+      
+    </div>
+  </header>
+
+  
+  <div class="slideshow">
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="pic11.jfif" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="pic22.jfif" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="pic33.jfif" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  </div>
+
+  <section class="image-gallery">
+    <div class="card">
+      <img src="pic1.png" alt="Card 1">
+      <p>With the increasing investment in education in China, higher education institutions have higher requirements for the introduction of teachers.This research mainly discusses the development and training strategies of college teachers based on data mining technology</p>
+     
+    </div>
+    <div class="card">
+      <img src="pic2.jfif" alt="Card 2">
+      <p>Sticking it out at one job becomes suffocating when you either grow to dislike it or have reasonably better opportunities at hand. Switching in that regard sounds about right.</p>
+     
+    </div>
+    <div class="card">
+      <img src="pic3.jfif" alt="Card 3">
+      <p>y this, we mean the classic tasks of a personnel department, in particular recruitment, planning and controlling, personnel administration, employee support, organization and reporting to management.</p>
+      
+    </div>
+    <div class="card">
+      <img src="pic4.jfif" alt="Card 4">
+      <p>administration is the most consistent facet of small, medium, and large businesses in the USA. The human resource department is often a silent but constant companion from the time you were hired (or started a business) until you leave.</p>
+      
+    </div>
+  </section>
+
+ 
+  <section class="map-video">
+    <iframe width="950" height="600"  src="https://www.youtube.com/embed/TA_yxiO-Q_8?si=Xn8ULNmvvTWX8UyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="map">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434508363!2d144.95373631531652!3d-37.81627927975186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577e977b5f38f1!2sGoogle!5e0!3m2!1sen!2sus!4v1614647367357!5m2!1sen!2sus" 
+        width="950" 
+        height="600" 
+        allowfullscreen="">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-media">
+      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" class="fa fa-facebook"></a>
+      <a href="https://x.com/?lang=en" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/login" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+   
+    </div>
+    <div class="footer-links">
+      <div>Subsidiaries & Affiliates</div>
+      <div>Site Links</div>
+    </div>
+  </footer>
+</body>
+</html>
+                                    
